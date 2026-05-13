@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/index.html"
+    "build": "mkdir -p dist DIST && cp index.html dist/index.html && cp index.html DIST/index.html"
   },
   "dependencies": {},
   "devDependencies": {}

@@ -1,12 +1,13 @@
-# Sistema Socios Club Ricardo Méndez
+Sistema corregido para Vercel.
 
-Versión de un solo archivo para Vercel.
+Este paquete crea ambas carpetas:
+- dist
+- DIST
 
-Contiene:
-- index.html con todo el sistema
-- package.json con build simple
+Configuración recomendada:
+Framework: Other
+Build Command: npm run build
+Output Directory: dist
 
-Configuración en Vercel:
-- Framework: Other
-- Build Command: npm run build
-- Output Directory: dist
+Si Vercel insiste en mayúscula:
+Output Directory: DIST
